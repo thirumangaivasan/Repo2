@@ -20,5 +20,5 @@ import './commands'
 // require('./commands')
 
 beforeEach(function(){
-    cy.visit('http://in-pnq-coe31:5180/pc/PolicyCenter.do')
+    cy.visit('http://3.93.218.198:8080/pc/PolicyCenter.do')
 })

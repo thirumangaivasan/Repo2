@@ -12,7 +12,7 @@ describe('CreateAccount', () => {
     cy.fixture('login.json').then((data)  => {
     loginPC.loginPolicyCenter(data.username, data.password)
     cy.wait(5000)
-    createAccount.createAccount(data.compname)
+    createAccount.createAccount(data.firstname, data.lastname)
     cy.wait(5000)
     createAccount.createNewSubmission()
 })

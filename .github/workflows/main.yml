@@ -1,6 +1,6 @@
 name: Cypress Tests
-on: [Push]
-Jobs:
+on: [push]
+jobs:
    cypress-run:
       runs-on: ubuntu-latest
      steps:

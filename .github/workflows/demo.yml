@@ -1,4 +1,4 @@
-name: Cypress Tests
+name: Cypress Tests And Reports
 on: [push]
 jobs:
   install:

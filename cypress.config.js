@@ -8,7 +8,9 @@ module.exports = defineConfig({
     "reporterOptions": {
       "charts": true,
       "overwrite": false,
+      "reportFilename": "[status]_[datetime]-[name]-report",
       "html": false,
+      "autoOpen": true,
       "json": true,
      },
      setupNodeEvents(on, config) {

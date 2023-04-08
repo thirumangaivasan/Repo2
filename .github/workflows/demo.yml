@@ -16,7 +16,7 @@ jobs:
         uses: actions/upload-artifact@v3.1.2
         with:
            name:  cypress-execution-report
-           path: D:/a/Repo2/Repo2/cypress/reports/html
+           path:  cypress/reports/html
            retention-days: 3
         
         

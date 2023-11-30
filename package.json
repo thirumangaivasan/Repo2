@@ -5,13 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules\\.bin\\cypress run"
-    
-   
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.9.0",
+    "cypress": "^13.1.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-mochawesome-reporter": "^3.3.0"
   },

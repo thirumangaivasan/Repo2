@@ -20,6 +20,7 @@ import 'cypress-mochawesome-reporter/register';
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-beforeEach(function(){
-    cy.visit('http://3.93.218.198:8080/pc/PolicyCenter.do')
-})
+// beforeEach(function(){
+//     //cy.visit('http://3.93.218.198:8080/pc/PolicyCenter.do')
+//     cy.visit('http://3.86.249.162:8080/pc/PolicyCenter.do')
+// })
